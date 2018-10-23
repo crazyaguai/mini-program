@@ -1,0 +1,21 @@
+/**yard.wxss**/
+.container{
+	padding: 10px;
+	padding-bottom: 70px;
+}
+.yard-title{
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid #afafaf;
+	margin-bottom: 5px;
+}
+.yard-text{
+	margin: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	text-indent: 20px;
+	color: #9b9b9b;
+}
+
+
+

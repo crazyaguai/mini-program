@@ -1,0 +1,13 @@
+.index-bottom-bar{
+	background: #fff;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.index-bottom-bar button{
+	font-size: 14px;
+	width: 130px;
+}

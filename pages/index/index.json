@@ -1,0 +1,7 @@
+{
+	"usingComponents": {
+		"i-button": "../../../components/button/index",
+		"i-icon": "../../../components/icon/index",
+		"i-bottom": "../../../components/bottom/index"
+	}
+}

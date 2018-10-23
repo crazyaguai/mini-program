@@ -1,0 +1,7 @@
+<view>
+	<view class="index-bottom-bar">
+		<button bind:touchend="call"><i-icon size="16" type="mobilephone" />电话预定</button>
+		<button open-type="share"><i-icon size="16" type="send" />分享</button>
+	</view>
+	<i-action-sheet visible="{{ showDialog }}" actions="{{ actions }}" show-cancel bind:cancel="handleCancel" bind:click="handleClick" />
+</view>

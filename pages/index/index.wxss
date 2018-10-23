@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.container {
+	background: #fff;
+}
+.yard-con{
+	padding-bottom: 70px;
+}
+.yard-show-con{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.yard-item{
+	box-sizing: border-box;
+	padding: 5px;
+	width: 50%;
+}
+.yarn-item-con{
+	box-shadow: 2px 2px 2px #afafaf;
+	padding: 0 7px;
+	border: 1px solid #afafaf;
+	border-radius: 3px;
+}
+.index-title{
+	margin-left: 10px;
+	border-bottom: 1px solid #afafaf;
+}
+.item-name{
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+}
+.btn-group{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+.btn-group a {
+	font-size: 12px;
+	text-align: center;
+	white-space: nowrap;
+	line-height: 24px;
+	display: block;
+	padding: 0 7px;
+	border: 1px solid #7952B3;
+	color: #fff;
+    background-color: #7952B3;
+	border-radius: 3px;
+}
+
+.btn-group .btn-prime{
+	background-color: #409eff;
+    border-color: #409eff;
+}
+
+
+

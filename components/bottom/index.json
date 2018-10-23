@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+		"i-icon": "../icon/index",
+		"i-modal": "../modal/index",
+		"i-action-sheet": "../action-sheet/index"
+	}
+}

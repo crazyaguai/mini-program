@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="yard-con">
+        <!-- <view class='index-title'>爨舍院子</view> -->
+        <view class="yard-show-con">
+            <view wx:for="{{indexData.show_yard}}" class="yard-item" wx:key="unique">
+                <view wx:if="{{item.name != ''}}" class="yarn-item-con">
+                    <view class="item-name">{{item.name}}</view>
+                    <view class="index-img-con" wx:if="{{item.name != ''}}" data-yard="{{item.id}}" bind:tap="goPage">
+                        <image style="width: 100%;border-radius: 5px;" mode='aspectFill' src='{{item.img}}'></image>
+                    </view>
+                    <view class="btn-group">
+                        <a>
+							<navigator url="/pages/yard/yard?id={{item.id}}" hover-class="navigator-hover">详细信息</navigator>
+						</a>
+                        <a class="btn-prime" data-yarn="{{item.id}}" bind:touchend="goMap">查看地图</a>
+                    </view>
+                </view>
+                <view wx:else>
+                </view>
+            </view>
+        </view>
+    </view>
+	<i-bottom></i-bottom>
+</view>

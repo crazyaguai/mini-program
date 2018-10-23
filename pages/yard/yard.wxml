@@ -1,0 +1,24 @@
+<!--yard.wxml-->
+<view class="container">
+	<view wx:if="yard_data.name!=''">
+		<view style="font-size: 16px;text-align: center;" class="yard-title">{{yard_data.name}}</view>
+		<view class="yard-title">位置</view>
+		<view wx:if="showMap">
+			<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="20" controls="{{controls}}" bindcontroltap="controltap" subkey="7BABZ-GSX3P-WSDDM-VHNUF-OM7S2-D6F7T" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 230px;z-index: -1;"></map>
+		</view>
+		<i-button size="small" bind:click="goMap" type="primary">查看地图</i-button>
+		<view class="yard-title">图片</view>
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{yard_data.images}}" wx:key="unique">
+				<swiper-item>
+					<image src="{{item}}" mode="aspectFit" style="width: 100%;"/>
+				</swiper-item>
+			</block>
+		</swiper>
+		<view class="yard-title">介绍</view>
+		<view wx:for="{{yard_data.article}}" wx:key="unique" class="yard-text">
+			{{item}}
+		</view>
+	</view>
+</view>
+<i-bottom></i-bottom>
