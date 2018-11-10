@@ -2,7 +2,7 @@
 ### 项目名称：微信搜索  爨舍lite
 ### 项目简介
 ### 二维码
-![小程序二维码](https://raw.githubusercontent.com/crazyaguai/mini-program/master/WechatIMG825.jpeg)
+![小程序二维码](https://raw.githubusercontent.com/crazyaguai/mini-program/master/cuanshe_lite.jpg)
 ### 页面结构
 
 ```
