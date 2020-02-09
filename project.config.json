@@ -13,8 +13,10 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.1.1",
 	"appid": "wx6180f968472e301a",
-	"projectname": "xcx_3",
+	"projectname": "cuanshe",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
